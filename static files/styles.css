@@ -1,0 +1,36 @@
+﻿.image-container{
+    width: 280px;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}/*for photo*/
+
+.image-container img{
+    max-width: 100%;
+    max-height: 100%;
+}/*for photo*/
+
+.foodColumn{
+    flex: 1; 
+    width: calc(25%-20px); 
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box; 
+    text-align: center; 
+}
+.foodColumn h3{
+    color:teal;
+}
+.foodRow{
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+}
